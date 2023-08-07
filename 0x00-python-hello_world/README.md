@@ -1,0 +1,1 @@
+This is the first project in Python - under ALX. Herein is an introduction to python (scripts and simple programs).
