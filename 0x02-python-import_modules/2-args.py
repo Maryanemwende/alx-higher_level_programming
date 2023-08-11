@@ -2,8 +2,7 @@
 if __name__ == "__main__":
     import sys
 
-    args = sys.argv
-    total_arguments = len(args) - 1
+    total_arguments = len(sys.argv) - 1
 
     if total_arguments == 0:
         print("0 arguments.")
@@ -12,4 +11,4 @@ if __name__ == "__main__":
     else:
         print("{} arguments:".format(total_arguments))
     for i in range(total_arguments):
-        print("{}: {}".format(i + 1, args[i + 1]))
+        print("{}: {}".format(i + 1, sys.argv[i + 1]))
