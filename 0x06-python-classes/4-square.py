@@ -8,9 +8,11 @@ class Square:
 
     def __init__(self, size=0):
         """initializing data attributes of Square.
+        self is the parameter to refer to an instance of Square
         size is the size of Square"""
 
         self.size = size
+
     @property
     def size(self):
         """retrieves current size of Square"""
