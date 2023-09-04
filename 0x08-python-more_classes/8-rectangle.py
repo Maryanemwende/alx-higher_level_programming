@@ -6,10 +6,11 @@
 class Rectangle:
     """representation of the class Rectangle
 
+    Data Attributes:
     number_of_instances: shows number of instances of Rectangle
-
     print_symbol: prints symbol used for string representation
     """
+
     number_of_instances = 0
     print_symbol = "#"
 
