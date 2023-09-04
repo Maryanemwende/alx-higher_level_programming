@@ -6,10 +6,9 @@
 class Rectangle:
     """representation of the class Rectangle
 
-    number_of_instances is a data attribute that shows the
-    no of instances of Rectangle
+    number_of_instances: shows number of instances of Rectangle
 
-    print_symbol prints symbol used for string representation
+    print_symbol: prints symbol used for string representation
     """
 
     number_of_instances = 0
