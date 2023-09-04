@@ -10,6 +10,7 @@ class Rectangle:
     no of instances of Rectangle
     print_symbol prints symbol used for string representation
     """
+
     number_of_instances = 0
     print_symbol = "#"
 
@@ -70,7 +71,7 @@ class Rectangle:
 
         rectangle = []
         for x in range(self.__height):
-            [rectangle.append('#') for y in range(self.__width)]
+            [rectangle.append(str(self.print_symbol)) for y in range(self.__width)]
             if x != self.__height - 1:
                 rectangle.append("\n")
         return "".join(rectangle)
