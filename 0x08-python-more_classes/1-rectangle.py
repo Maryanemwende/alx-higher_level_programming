@@ -8,6 +8,7 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         """initializing attributes of Rectangle class
+
         self is a parameter to refer to an instance of the class
         width is the width of the rectangle - an integer
         height is the height of the rectangle - an integer"""
@@ -22,7 +23,6 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
-        """Property setter to set the width"""
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         if value < 0:
@@ -36,7 +36,6 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-        """Property setter to set the height"""
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         if value < 0:
