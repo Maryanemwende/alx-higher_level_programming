@@ -12,7 +12,6 @@ class Rectangle:
         self is a parameter to refer to an instance of the class
         width is the width of the rectangle - an integer
         height is the height of the rectangle - an integer"""
-
         self.width = width
         self.height = height
 
